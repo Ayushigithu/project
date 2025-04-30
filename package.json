@@ -1,0 +1,33 @@
+{
+  "name": "urlsortner",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.3",
+    "cookie-parser": "^1.4.7",
+    "ejs": "^3.1.10",
+    "express": "^4.21.2",
+    "express-ejs-layouts": "^2.5.1",
+    "hyperdyperid": "^1.2.0",
+    "jsonwebtoken": "^9.0.2",
+    "mongoose": "^8.9.4",
+    "nanoid": "^5.0.9",
+    "nodemon": "^3.1.9",
+    "shortid": "^2.2.16",
+    "uuid": "^11.0.5"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ayushhgi/URL_sortner.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Ayushhgi/URL_sortner/issues"
+  },
+  "homepage": "https://github.com/Ayushhgi/URL_sortner#readme",
+  "description": ""
+}
