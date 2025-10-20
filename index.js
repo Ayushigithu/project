@@ -41,10 +41,16 @@ app.get('/url/:shortId', async (req, res) => {
   res.redirect(entry?.redirectURL)
 })
 
-connectToMongoDB('mongodb://localhost:27017/short-url').then(() => {
-  'mongoDB connected'
-})
-const port = 3002
+connectToMongoDB('mongodb+srv://ayushigoyal2704_db_user:Ayushi%40123@cluster0.grkgwpw.mongodb.net/URL')
+  .then(() => {
+    console.log('MongoDB connected');
+  })
+  .catch((err) => {
+    console.error('MongoDB connection failed:', err);
+  });
+
+const port = 3002;
 app.listen(port, () => {
   `server is listening to ${port}`
 })
+

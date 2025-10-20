@@ -4,6 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+
+    <script>
+        function redirectToSignup() {
+            window.location.href = "signup"; // Yahan apne actual signup page ka path daalein
+        }
+    </script>
 </head>
 
 <style>
@@ -85,8 +91,9 @@
         <label for="password">Password</label>
         <input type="text" id="password" required name="password" placeholder="Enter your password" />
 
-        <button type="submit">Login</button>
+        <button  type="submit">Login</button>
     </form>
+        <button type="button" style="margin-top: 5px;" class="signup-btn" onclick="redirectToSignup()">Signup</button>
 </div>
 
 
